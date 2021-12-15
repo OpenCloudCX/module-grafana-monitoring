@@ -23,7 +23,7 @@
   "fiscalYearStartMonth": 0,
   "gnetId": 7249,
   "graphTooltip": 0,
-  "id": 14,
+  "id": 2,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -82,9 +82,7 @@
       "options": {
         "orientation": "horizontal",
         "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
+          "calcs": ["lastNotNull"],
           "fields": "",
           "values": false
         },
@@ -163,9 +161,7 @@
       "options": {
         "orientation": "horizontal",
         "reduceOptions": {
-          "calcs": [
-            "min"
-          ],
+          "calcs": ["min"],
           "fields": "",
           "values": false
         },
@@ -243,9 +239,7 @@
       "options": {
         "orientation": "horizontal",
         "reduceOptions": {
-          "calcs": [
-            "mean"
-          ],
+          "calcs": ["mean"],
           "fields": "",
           "values": false
         },
@@ -321,9 +315,7 @@
       "options": {
         "orientation": "horizontal",
         "reduceOptions": {
-          "calcs": [
-            "mean"
-          ],
+          "calcs": ["mean"],
           "fields": "",
           "values": false
         },
@@ -401,9 +393,7 @@
       "options": {
         "orientation": "horizontal",
         "reduceOptions": {
-          "calcs": [
-            "mean"
-          ],
+          "calcs": ["mean"],
           "fields": "",
           "values": false
         },
@@ -493,9 +483,7 @@
         "justifyMode": "auto",
         "orientation": "horizontal",
         "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
+          "calcs": ["lastNotNull"],
           "fields": "",
           "values": false
         },
@@ -587,9 +575,7 @@
         "mode": "time",
         "name": null,
         "show": false,
-        "values": [
-          "total"
-        ]
+        "values": ["total"]
       },
       "yaxes": [
         {
@@ -1008,8 +994,8 @@
       "fill": 0,
       "fillGradient": 0,
       "gridPos": {
-        "h": 6,
-        "w": 4,
+        "h": 5,
+        "w": 6,
         "x": 18,
         "y": 8
       },
@@ -1291,10 +1277,10 @@
       "fill": 0,
       "fillGradient": 0,
       "gridPos": {
-        "h": 6,
+        "h": 8,
         "w": 12,
         "x": 12,
-        "y": 14
+        "y": 13
       },
       "height": "230px",
       "hiddenSeries": false,
@@ -1404,20 +1390,10 @@
       "2h",
       "1d"
     ],
-    "time_options": [
-      "5m",
-      "15m",
-      "1h",
-      "6h",
-      "12h",
-      "24h",
-      "2d",
-      "7d",
-      "30d"
-    ]
+    "time_options": ["5m", "15m", "1h", "6h", "12h", "24h", "2d", "7d", "30d"]
   },
   "timezone": "",
   "title": "Kubernetes Cluster",
   "uid": "os6Bh8Omk",
-  "version": 1
+  "version": 2
 }
